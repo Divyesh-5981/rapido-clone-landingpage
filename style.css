@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap"); */
 /*
 ==========
 Global CSS 
 ==========
 */
+
+@font-face {
+  font-family: "poppins light";
+  src: url(./poppinslight.ttf);
+}
 
 * {
   margin: 0;
@@ -114,6 +120,10 @@ Header Section
 }
 .navbar-links .navbar-link.active::after {
   background-position: 100% 0;
+  transition: none;
+}
+.navbar-links .active {
+  font-weight: 600;
 }
 .navbar-links .navbar-link:hover::after {
   background-position: -100% 0;
@@ -167,12 +177,15 @@ Hero Section
 }
 
 .left-box h1 {
+  font-family: "poppins light";
   font-weight: 300;
   line-height: 60px;
   font-size: 50px;
   margin: 0;
+  color: #333;
 }
 .left-box h2 {
+  font-family: "poppins light";
   margin-top: 20px;
   margin-right: 20px;
   color: #4b4b4b;
@@ -1257,6 +1270,34 @@ Footer
   line-height: 23px;
   text-decoration: none;
   position: relative;
+}
+.hamburger-menu div a:hover::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: #000;
+  bottom: -10px;
+  left: 0;
+  background: linear-gradient(to left, #000 50%, transparent 50%);
+  background-size: 200% 100%;
+  border-radius: 4px;
+  background-position: 100% 0;
+  transition: none;
+}
+.hamburger-menu div .active:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: #000;
+  bottom: -10px;
+  left: 0;
+  background: linear-gradient(to left, #000 50%, transparent 50%);
+  background-size: 200% 100%;
+  border-radius: 4px;
+  background-position: 100% 0;
+  transition: none;
 }
 .hamburger-menu div {
   padding: 8px 0;
