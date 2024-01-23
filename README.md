@@ -1,7 +1,7 @@
 # Rapido Landing Page
 
 <p align="center">
-  <img src="url_to_screenshot" alt="Rapido Landing Page Screenshot" width="800" />
+  <img src="" alt="Rapido Landing Page Screenshot" width="800" />
 </p>
 
 ## Overview 🚀
@@ -16,7 +16,7 @@ Welcome to the Rapido landing page! This project showcases a simple and stylish 
 
 ## Preview 📷
 
-![Rapido Landing Page Preview](url_to_screenshot)
+![Rapido Landing Page Preview](https://github.com/Divyesh-5981/rapido-clone-landingpage/blob/master/img/rapido.png?raw=true)
 
 ## Usage 💻
 
