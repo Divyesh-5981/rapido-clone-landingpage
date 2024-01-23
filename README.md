@@ -1,7 +1,7 @@
 # Rapido Landing Page
 
 <p align="center">
-  <img src="" alt="Rapido Landing Page Screenshot" width="800" />
+  <img src="https://raw.githubusercontent.com/Divyesh-5981/rapido-clone-landingpage/276447bc10b72482e9fa7aae898ced51d18fc056/img/logo.svg" alt="Rapido Landing Page Screenshot" width="800" />
 </p>
 
 ## Overview 🚀
